@@ -21,7 +21,7 @@ type Env struct {
 		Username string `mapstructure:"username"`
 		Password string `mapstructure:"password"`
 		DBName   string `mapstructure:"dbname"`
-	} `mapstructure:"database_erp"`
+	} `mapstructure:"database"`
 
 	Files struct {
 		Host   string `mapstructure:"host"`
